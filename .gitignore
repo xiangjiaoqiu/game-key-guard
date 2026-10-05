@@ -1,0 +1,16 @@
+﻿# ---- 构建产物 ----
+# 发布用的 游戏快捷键锁.exe 故意保留在仓库里，方便别人直接下载
+_selftest.exe
+*.pdb
+*.tmp
+CSC*.TMP
+
+# ---- 本地调试 / 临时文件 ----
+源码/
+_scratch/
+*.log
+
+# ---- 系统 ----
+Thumbs.db
+desktop.ini
+.DS_Store
